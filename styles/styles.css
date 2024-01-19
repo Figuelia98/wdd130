@@ -20,7 +20,30 @@ img{
    box-shadow: 0 0 30px grey;
 
 }
-
-p{
+main{
+    max-width: 840px;
+}
+main img{
+    width: 150px;
+    height: auto;
+}
+aside{
+    background-color:#d4e0fa ;
+    margin: 1rem;
+    border: 1pt solid #eee;
     padding: 10px;
+    color:black;
+    text-align: center;
+}
+aside img{
+ width: 200px;
+ height: auto;
+}
+p{
+    padding: 0px;
+}
+footer{
+    margin-top: 10px;
+    border-top: 2px solid steelblue;
+    text-align: center;
 }

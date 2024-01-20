@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
 :root{
@@ -13,7 +14,6 @@
     --nav-hover-link-color:#c07841;
     --nav-hover-background-color:#a9bd6a;
 }
-
 body{
     font-family:var(--paragraph-font) ;
     max-width: 960px;
@@ -35,14 +35,12 @@ nav{
     font-size: 1.2rem;
     display: flex;
 }
-
 nav a{
     display: block;
     color:var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
 nav a:link, nav a:visited{
     color: var(--nav-link-color);
 }

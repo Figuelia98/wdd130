@@ -1,3 +1,15 @@
+:root{
+    --primary-color:#182825;
+    --secondary-color:#016FB9;
+    --accent1-color:#22AED1;
+    --accent2-color:#6D8EA0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -22,20 +34,23 @@ main{
     max-width: 840px;
 }
 main img{
-    width: 150px;
+    margin: 1rem;
+    float: right;
     height: auto;
 }
 aside{
-    background-color:#d4e0fa ;
-    margin: 1rem;
-    border: 1pt solid #eee;
-    padding: 10px;
-    color:black;
+    position: relative;
     text-align: center;
 }
 aside img{
  width: 200px;
  height: auto;
+}
+aside h2{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    color: black;
 }
 p{
     padding: 0px;
@@ -44,4 +59,13 @@ footer{
     margin-top: 10px;
     border-top: 2px solid steelblue;
     text-align: center;
+}
+
+/* Class Selectors*/
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid steelblue;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
 }

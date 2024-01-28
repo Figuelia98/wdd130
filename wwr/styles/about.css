@@ -6,7 +6,7 @@
     --primary-color:#8fbb00;
     --secondary-color:#F3D9B1;
     --accent1-color:#C29979;
-    --accent2-color:#C33149;
+    --accent2-color:#6d6d6d;
     --heading-font:Bitter ,serif;
     --paragraph-font:Cardo,serif;
     --nav-background-color:#8fbb00;
@@ -52,12 +52,7 @@ header nav{
     font-size: 1.2rem;
     display: flex;
 }
-footer nav{
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    text-align: right;
-}
+
 nav a{
     display: block;
     color:var(--nav-link-color);
@@ -72,9 +67,25 @@ nav a:hover{
     background-color: var(--nav-hover-background-color);
 }
 
-
+footer{
+   padding: 10px;
+   background-color: #8fbb00;
+   height: 70px;
+   position: relative;
+}
+footer nav{
+    top:10px;
+    right: 20px;
+    width: 300px;
+    position: absolute;
+    font-size: 1.2rem;
+    display: flex;
+}
+footer p{
+    text-align: center;
+}
 footer img{
-    width: 50px;
+    width: 40px;
 }
 #adventure img{
     width: 300px;

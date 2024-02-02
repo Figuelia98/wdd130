@@ -4,6 +4,11 @@
     --accent1-color:#22AED1;
     --accent2-color:#6D8EA0;
 }
+header,footer,.grid{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 
 *{
     margin: 0;
@@ -13,14 +18,23 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     color:white;
     display: block;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #eee;
+    text-decoration: none;
     padding: 20px;
 }
 h1{
     color: steelblue;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
 }
 img{
    width: 150px; 
@@ -47,10 +61,11 @@ aside img{
  height: auto;
 }
 aside h2{
-    position: absolute;
-    top: 20px;
-    left: 45%;
-    color: black;
+   position: absolute;
+   color:white;
+   left: 50%;
+   top:10%;
+   transform: translate(-50%,-50%);
 }
 p{
     padding: 0px;
@@ -64,8 +79,26 @@ footer{
 /* Class Selectors*/
 .box{
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.3rem;
     border: 1px solid steelblue;
-    background-color: var(--accent2-color);
+    background-color: hsl(0, 0%, 93%);
     color: var(--primary-color);
+}
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 3;
+    grid-row: 2;
+
+}
+main{
+    grid-column: 2/3;
+}
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
 }

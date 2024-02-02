@@ -1,0 +1,30 @@
+.flex-box-contenair{
+    background-color: rgb(211, 211, 228);
+    height: 800px;
+    display: flex;
+   
+}
+
+.flex-item{
+    width: 100px;
+    margin: 10px;
+    border: 2px inset rgb(151, 155, 147);
+    background-color: rgb(134, 97, 28);
+}
+.box-1{
+min-height:50px ;
+flex-grow: 0;
+}
+.box-2{
+min-height: 75px;
+flex-grow: 1;
+}
+.box-3{
+min-height:100px ;
+flex-grow: 1;
+}
+.box-4{
+min-height: 125px;
+
+flex-grow: 0;
+}

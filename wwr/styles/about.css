@@ -29,32 +29,32 @@ section h2{
 }
 section{
     width: 90%;
-    display: block;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
     background-color:var(--primary-color);
-    height: 70px;
+    height: 120px;
     width: 100%;
 }
 header img{
     width: 100px;
     border-radius: 50%;
-    left: 10%;
-    position: relative;
+
 }
 header nav{
-    position: absolute;
-    top: 5px;
-    right: 20%;
+   
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+
 }
 
 nav a{
-    display: block;
     color:var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
@@ -71,29 +71,38 @@ footer{
    padding: 10px;
    background-color: #8fbb00;
    height: 70px;
-   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
 }
 footer nav{
-    top:10px;
-    right: 20px;
     width: 300px;
-    position: absolute;
     font-size: 1.2rem;
     display: flex;
 }
 footer p{
+    flex-grow: 1;
     text-align: center;
 }
 footer img{
+    flex-grow: 0;
     width: 40px;
 }
-#adventure img{
-    width: 300px;
-    height: 150px;
+#adv-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+figure img{
+    width: 100%;
+    height: 100px;
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
-    display: inline-grid;
+}
+figcaption{
+    text-align: center;
+
 }
 .hero{
     height: 300px;
@@ -112,6 +121,19 @@ footer img{
 top:0px;
 left: 40%;
 position: absolute;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+   grid-gap:20px;
+}
+.grid-layout img{
+    width: 100%;
+    height: 200px;
+
 }
 article{
     color: black;

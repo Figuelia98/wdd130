@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lobster&family=Roboto:wght@300&display=swap');
 
 body,header{
     margin: 0;
@@ -8,6 +8,7 @@ body,header{
 h1{
     text-align: center;
     color: rgb(112, 112, 231);
+    font-family: sans-serif,Roboto;
 }
 span{
     color: rgb(112, 112, 231);
@@ -41,6 +42,8 @@ footer p{
 label{
     margin-bottom: 15px;
     margin-top: 15px;
+    font-size: 0.9rem;
+    font-family: sans-serif,Roboto;
 }
 #response{
     background-color: rgb(40, 42, 49);

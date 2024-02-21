@@ -101,96 +101,23 @@ footer img{
 }
 
 .hero{
-    background-image: url(../images/rafting6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 600px;
     width: 100%;
     margin: 0 auto;
     position: relative;
 }
-.layone h3{
-    font-size:x-large;
-    font-weight: bolder;
+.hero p{
     text-align: center;
-
 }
-.layone{
-    height: 200px;
-    width: 30%;
-    padding: 15px;
-    box-shadow: 0 0 1px black;
-}
-#book{
-    background-color: #07cf00;
-}
-#started{
-    background-color: #0184ff;
-}
-.layone button{
-    display: block;
-    margin: 0 auto;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 0.4rem;
-    border: none;
-    width: 50%;
-}
-#option{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
-
-}
-
 .hero h1{
 
 margin-top: 0px;
-color:#f8f8f8;
+color:black;
 font-size: 50px;
 text-align: center;
 
 }
-.hero button{
-    background-color:#ffffff;
-    padding: 15px;
-    width: 30%;
-    border: none;
-    border-radius: 0.3rem;
-    box-shadow: 0 0 1px black; 
-    min-width: 200px;
-    color: rgb(0, 140, 255);
-    margin: 0 auto;
-    position: relative;
-    top:50px;
-    display: block;
-    font-size: x-large;
-    font-weight: bolder;
-} 
-.hero button:hover{
-opacity: 0.7;
-}
-#compare{
-    background-color: #0184ff;
-    height: 400px;
-    width: 100%;
-    margin-bottom:0;
-}
-#compare h2{
-    color: white;
-    font-size: 40px;
-}
-#compare ul{
-display: block;
-width: 60%;
-margin: 0 auto;
-}
-#compare li{
-    color: white;
-    font-size: xx-large;
-   
-}
+
 aside{
     display: grid;
     width: 100%;
@@ -225,4 +152,95 @@ aside button{
 aside form input{
     padding: 10px;
     margin-right: 5px ;
+}
+td {
+    padding: 10px;
+}
+.color{
+    width: 20px;
+    height: 20px;
+}
+.c1{
+ background-color: yellow;
+}
+.c2{
+    background-color: goldenrod;
+   }
+   .c3{
+    background-color: rgb(104, 46, 46);
+   }
+   .c4{
+    background-color:green;
+
+   }
+   .c5{
+    background-color: blue;
+   }
+.twolay{
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+#offer{
+    min-height: 350px;
+    width: 90%;
+    height: auto;
+
+
+}
+#offer h2{
+    font-size: 35px;
+    color: #0083cf;
+}
+.layoff{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.opt-off{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px black;
+}
+.head-off{
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: space-between;
+}
+.h1{
+
+    background-color: yellow;
+    color: #001029;
+
+}
+.opt-off p{
+    text-align: center;
+}
+.opt-off h3{
+    color: #0083cf;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+}
+.opt-off img{
+    width: 100%;
+}
+.opt-off button{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 0.4rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #0081fa;
+    
 }

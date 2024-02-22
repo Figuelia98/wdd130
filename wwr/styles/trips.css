@@ -139,6 +139,9 @@ aside a {
 
     display: block;
 }
+aside a:hover{
+ color: #0081fa;
+}
 aside form{
     display: flex;
  
@@ -152,6 +155,9 @@ aside button{
 aside form input{
     padding: 10px;
     margin-right: 5px ;
+}
+aside button:hover{
+    opacity: 0.5;
 }
 td {
     padding: 10px;
